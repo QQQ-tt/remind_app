@@ -1,10 +1,15 @@
 {
+  "entryPagePath": "pages/index/index",
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/user/user"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+      "navigationBarTitleText": "提醒",
+      "navigationBarTextStyle":"black",
+      "navigationBarBackgroundColor": "#ffffff",
+      "enablePullDownRefresh": true,
+      "backgroundColor": "#e4e3e3"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
